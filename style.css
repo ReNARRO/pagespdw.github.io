@@ -1,0 +1,78 @@
+/* Style untuk navbar */
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+}
+
+.logo {
+    color: #000000;
+    font-size: 20px;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navlinks a {
+    color: #000000;
+    text-decoration: none;
+}
+
+  /* Style untuk header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.greeting, .datetime {
+    color: #333;
+    font-size: 16px;
+}
+
+
+.carousel-item {
+    flex: 0 0 300px;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.carousel-item img {
+    width: 1200px;
+    height: 800px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+/* Style untuk cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card {
+    flex: 0 0 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-right: 10px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
